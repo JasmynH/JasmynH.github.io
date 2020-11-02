@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: blog
+title: myblog
 subtitle: ''
 description: ''
 keywords:
@@ -104,5 +104,5 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy: 
   type: git
-  repo: https://github.com/JasmynH/JasmynH.github.io
+  repo: https://github.com/JasmynH/JasmynH.github.io 
   branch: master
