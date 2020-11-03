@@ -35,5 +35,5 @@ const [dataTitle, setDataTitle] = useState([]);
 后台修改接口，加上key值，仍然出现相同的错误。
 
 
-**找了很久，发现antd的table框架里传入的数据只要有children，就会自动显示“+”号，因为接口传入的数据里，其子数据下还有children，所以就会导致点击外表格的“+”号，子表格里还会出现多个带“+”号的子表格，让后台将数据的children改成lists之后，变解决了这个问题。**
+# 找了很久，发现antd的table框架里传入的数据只要有children，就会自动显示“+”号，因为接口传入的数据里，其子数据下还有children，所以就会导致点击外表格的“+”号，子表格里还会出现多个带“+”号的子表格，让后台将数据的children改成lists之后，变解决了这个问题。
 ![效果图](https://upload-images.jianshu.io/upload_images/11060508-314faf2f6a4a5f2b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
