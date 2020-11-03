@@ -99,7 +99,7 @@ avatar:
   effect: false # 头像会一直转圈
 
 # 主页的 top_img 
-index_img: http://img.netbian.com/file/newc/e4f018f89fe9f825753866abafee383f.jpg
+index_img: https://upload-images.jianshu.io/upload_images/11060508-3f84ecded773f03c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 
 # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
 default_top_img: //goss2.cfp.cn/creative/vcg/nowater800/new/VCG41N1265401118.jpg?x-oss-process=image/format,webp
@@ -493,7 +493,7 @@ tag_ui: # 留空或 index
 # 设置网站背景
 # 可设置图片 或者 顔色（留空 不显示背景）
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(http://img.netbian.com/file/2020/0712/smallccd6fce7874f4f9351ddf67c71ed45361594566515.jpg)
+background: url(https://upload-images.jianshu.io/upload_images/11060508-f7c5b39dda4ddbd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # footer 背景(footer是否显示图片背景(与top_img一致))
 # 留空/false：显示默认的顔色
