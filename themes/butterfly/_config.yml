@@ -99,8 +99,7 @@ avatar:
   effect: false # 头像会一直转圈
 
 # 主页的 top_img 
-# index_img: http://img.netbian.com/file/newc/e4f018f89fe9f825753866abafee383f.jpg
-index_img: ../../../public/img/topImg,jpg
+index_img: http://img.netbian.com/file/newc/e4f018f89fe9f825753866abafee383f.jpg
 
 # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
 default_top_img: //goss2.cfp.cn/creative/vcg/nowater800/new/VCG41N1265401118.jpg?x-oss-process=image/format,webp
