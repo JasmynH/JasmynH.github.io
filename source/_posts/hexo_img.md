@@ -3,7 +3,6 @@ title: hexo图片显示问题
 date: 2020-11-03 15:29:08
 tags: hexo
 categories: 
-    - [框架,react/antd]
     - [hexo]
 cover: https://upload-images.jianshu.io/upload_images/11060508-bcc508c3557044c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 ---

@@ -670,7 +670,7 @@ aside:
 busuanzi:
   site_uv: false #本站访客数
   site_pv: false #本站总访客数 
-  page_pv: true
+  page_pv: false #文章阅读量
 
 # (网页运行时间)
 runtimeshow:
