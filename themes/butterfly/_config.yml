@@ -103,7 +103,7 @@ avatar:
 index_img: https://upload-images.jianshu.io/upload_images/11060508-3f84ecded773f03c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 
 # 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img
-default_top_img: //goss2.cfp.cn/creative/vcg/nowater800/new/VCG41N1265401118.jpg?x-oss-process=image/format,webp
+default_top_img: https://goss2.cfp.cn/creative/vcg/nowater800/new/VCG41N1265401118.jpg?x-oss-process=image/format,webp
 
 # 归档页面的 top_img
 archive_img:
@@ -802,7 +802,7 @@ snackbar:
 baidu_push: false
 
 # https://instant.page/
-# prefetch (預加載)
+# prefetch (预加载)
 instantpage: false
 
 # https://github.com/vinta/pangu.js
