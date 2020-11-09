@@ -2,7 +2,10 @@
 title: hexo图片显示问题
 date: 2020-11-03 15:29:08
 tags: hexo
-categories: hexo
+categories: 
+    - [框架,react/antd]
+    - [hexo]
+    
 ---
 
 ## hexo图片在本地显示，但是上传到github里后，在通过github的地址去看就没有显示。
