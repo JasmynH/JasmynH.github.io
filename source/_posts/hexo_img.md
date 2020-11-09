@@ -5,7 +5,7 @@ tags: hexo
 categories: 
     - [框架,react/antd]
     - [hexo]
-    
+cover: https://upload-images.jianshu.io/upload_images/11060508-bcc508c3557044c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 ---
 
 ## hexo图片在本地显示，但是上传到github里后，在通过github的地址去看就没有显示。

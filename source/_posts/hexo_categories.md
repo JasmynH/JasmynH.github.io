@@ -3,6 +3,7 @@ title: hexo页面添加分类（categories）
 date: 2020-11-09 15:29:08
 tags: hexo
 categories: [hexo]
+cover: https://upload-images.jianshu.io/upload_images/11060508-bcc508c3557044c9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 ---
 
 ### 页面添加单个分类
