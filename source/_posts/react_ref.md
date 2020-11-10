@@ -3,7 +3,7 @@ title: react ref的用法
 tag: react
 categories: 
     - [框架,react,知识点]
-cover: https://upload-images.jianshu.io/upload_images/11060508-3d58ff4aa4dc20c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
+cover: cover.png
 ---
 refs提供了一种方式，允许我们访问DOM节点或在render方法中创建的React元素
 
@@ -24,7 +24,7 @@ __注：__
 下面的例子已经更新为使用在React 16.3版本引入的React.createRef()API。如果你正在使用一个较早版本的 React，我们推荐你使用回调形式的refs。
 ref不能使用在函数组件上，因为函数组件没有实例，只能使用在类组件上。
 
-![image.png](https://upload-images.jianshu.io/upload_images/11060508-195e071a5cb57611.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](1.png)
 
 ## react ref的三种用法：
 1、字符串类型 string （已不被最新版的react推荐使用，可能会被遗弃）
@@ -91,3 +91,26 @@ class Child extends React.Component{
         )
     }
 ```
+
+__注意:__
+如果是在同一个样式里既写ref又写onChange来取ref里的current值，其ref取值比onchange变化会慢一步
+如：
+```
+import React,{Component,useRef,creactRef} from 'react'
+    const App=(params)=>{
+        const inpRef=useRef()
+        const click=()=>{
+            console.log('inpRef',inpRef.current.state.value)
+        }
+        return(
+            <Input ref={inpRef}  onChange={click}/>
+        )
+    }
+```
+输入1时，控制台打印的时undefined
+![image.png](2.png)
+再多输入2时，打印出来的是1
+![image.png](3.png)
+再多输入3，打印出来12
+![image.png](4.png)
+每次打印的值都是上一步的值
