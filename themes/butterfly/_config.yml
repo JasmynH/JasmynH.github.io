@@ -35,7 +35,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代码相关)
 # --------------------------------------
 
-highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: pale night   #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button 是否支持代码复制
 highlight_lang: true # show the code language 
 # 代码框展开/关闭  true 全部代码框不展开，需点击>打开 #false 代碼框展开，有>点击按鈕 #none 不显示>按鈕
