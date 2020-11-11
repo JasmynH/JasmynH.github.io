@@ -3,7 +3,7 @@ title: antd table的嵌套子表格组件蔽坑
 date: 2020-11-02 10:59:08
 tags: antd
 categories: 
-    - [框架,react/antd,蔽坑]
+    - [框架,antd]
 cover: cover.png
 ---
 蚂蚁框架嵌套子表格

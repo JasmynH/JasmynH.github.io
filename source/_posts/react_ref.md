@@ -2,7 +2,7 @@
 title: react ref的用法
 tag: react
 categories: 
-    - [框架,react,知识点]
+    - [框架,react]
 cover: cover.png
 ---
 refs提供了一种方式，允许我们访问DOM节点或在render方法中创建的React元素

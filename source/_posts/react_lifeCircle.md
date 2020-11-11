@@ -2,7 +2,7 @@
 title: react生命周期函数
 tags: react
 categories: 
-    - [框架,react/antd,知识点]
+    - [框架,react]
 cover: cover.png
 ---
 ## 概念
