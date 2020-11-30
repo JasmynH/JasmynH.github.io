@@ -6,6 +6,7 @@ tags:
     - [面试]
 categories: 
     - [面试]
+cover:  /img/cover-interview.png
 ---
 
 

@@ -4,7 +4,7 @@ date: 2020-11-09 15:29:08
 tags: hexo
 categories: 
     - [hexo]
-cover: cover.png
+cover:  /img/cover-hexo.png
 ---
 
 ### 页面添加单个分类

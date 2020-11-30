@@ -1,9 +1,10 @@
 ---
 title: react生命周期函数
 tags: react
+date: 2020-11-25 12:40:19
 categories: 
     - [框架,react]
-cover: cover.png
+cover: /img/cover-react.png
 ---
 ## 概念
 在组件创建、组件属性更新、组件被销毁的过程中，总是伴随着各种各样的函数执行，这些在组件特定时期，被触发执行的函数，统称为组件的生命周期函数。

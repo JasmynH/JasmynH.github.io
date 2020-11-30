@@ -3,7 +3,7 @@ title: Object.keys方法
 date: 2020-11-19 20:49:01
 tags: js
 categories: js
-
+cover: /img/cover-js.png
 ---
 
 ### array类型

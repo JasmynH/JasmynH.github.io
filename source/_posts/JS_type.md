@@ -3,7 +3,7 @@ title: JS数据类型
 date: 2020-11-11 10:58:39
 tags: JS
 categories: JS
-cover: cover.png
+cover: /img/cover-js.png
 ---
 
 ## 类型（两类）

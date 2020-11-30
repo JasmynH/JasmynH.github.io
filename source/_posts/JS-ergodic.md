@@ -7,6 +7,7 @@ tags:
 categories: 
     - [js]
     - [JQ]
+cover: /img/cover-js.png
 ---
 ## JS数组遍历
 ### for循环遍历
@@ -14,7 +15,6 @@ categories:
 for(j = 0; j < arr.length; j++) {
    
 }
-```
 ### map
 ```
 points.map((item,index)=>{

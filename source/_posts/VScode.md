@@ -1,9 +1,10 @@
 ---
 title: vscode不显示可折叠代码
 tag: vscode
+date: 2020-11-19 15:22:33
 categories: 
     - [软件,vscode]
-cover: cover.png
+cover: /img/cover-vscode.png
 ---
 在vscode左下角的设置图标，点击设置
 ![image.png](1.png)

@@ -6,6 +6,7 @@ tags:
     - [icon]
 categories: 
     - [react,icon]
+cover: /img/cover-react.png
 ---
 【提前登录巴里巴巴矢量图库】
 
@@ -19,6 +20,7 @@ categories:
 ![](5.png)
 点击symbel，之后再点击图标的编辑，提前选好图标颜色
 ![](1.png)
+之后在页面引用IconFont
 ```
 import { createFromIconfontCN } from '@ant-design/icons'; 
 const IconFont = createFromIconfontCN({ scriptUrl: '//at.alicdn.com/t/font_2237835_wpvhd8k09qp.js', });
