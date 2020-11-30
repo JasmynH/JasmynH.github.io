@@ -19,16 +19,6 @@ menu:
   # 关于: /about/ || fa fa-heart
   # 留言板: /messageboard/ || fa fa-link
 
-  # Home: / || fas fa-home
-  # Archives: /archives/ || fas fa-archive
-  # Tags: /tags/ || fas fa-tags
-  # Categories: /categories/ || fas fa-folder-open
-  # List||fas fa-list:
-  #   - Music || /music/ || fas fa-music
-  #   - Movie || /movies/ || fas fa-video
-  # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
-
 # Hide the child menu items in mobile sidebar
 hide_sidebar_menu_child: false
 
@@ -106,11 +96,11 @@ index_img: https://upload-images.jianshu.io/upload_images/11060508-3f84ecded773f
 default_top_img: https://goss2.cfp.cn/creative/vcg/nowater800/new/VCG41N1265401118.jpg?x-oss-process=image/format,webp
 
 # 归档页面的 top_img
-archive_img:
+archive_img: https://upload-images.jianshu.io/upload_images/11060508-3f84ecded773f03c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240
 
 #tag 子页面 的 默认 top_img（If the banner of tag page not setting, it will show the top_img）
 # note: tag page, not tags page (子标签页面的 top_img)
-tag_img:
+tag_img: 
 
 # tag 子页面的 top_img，可配置每个 tag 的 top_img
 # format:
@@ -119,7 +109,7 @@ tag_per_img:
 
 #category 子页面 的 默认 top_img（If the banner of category page not setting, it will show the top_img）
 # note: category page, not categories page (子分类页面的 top_img)
-category_img:
+category_img: 
 
 #category 子页面的 top_img，可配置每个 category 的 top_img
 # format:
