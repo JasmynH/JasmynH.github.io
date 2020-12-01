@@ -3,7 +3,7 @@ title: hexo图片显示问题
 date: 2020-11-03 15:29:08
 tags: hexo
 categories: 
-    - [hexo]
+    - [框架,hexo]
 cover:  /img/cover-hexo.png
 ---
 

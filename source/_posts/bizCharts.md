@@ -1,7 +1,8 @@
 ---
 title: bizCharts
 date: 2020-11-30 18:10:31
-tags: -[bizCharts]
+tags: 
+    - [bizCharts]
 categories: 
     - [框架,bizCharts]
 ---

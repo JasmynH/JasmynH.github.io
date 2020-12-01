@@ -1,7 +1,8 @@
 ---
 title: hexo
 tags: hexo
-categories: hexo
+categories: 
+    - [框架,hexo]
 date: 2020-11-03 09:29:08
 cover:  /img/cover-hexo.png
 ---

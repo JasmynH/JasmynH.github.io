@@ -3,7 +3,7 @@ title: hexo页面添加分类（categories）
 date: 2020-11-09 15:29:08
 tags: hexo
 categories: 
-    - [hexo]
+    - [框架,hexo]
 cover:  /img/cover-hexo.png
 ---
 
