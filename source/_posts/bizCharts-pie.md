@@ -103,7 +103,7 @@ categories:
 在官方问当里看Lengend暂时没有找到合适的属性，于是使用onGetG2Instance属性
 
 
-案例：
+4.x案例：
 __jsx：__
 ```
 import React, { useEffect, useState } from 'react';
@@ -137,10 +137,8 @@ registerShape('interval', 'sliceShape', {
 
 
 const RatePieChart = (props) => {
-	const [btnFlag,setBtnFlag]=useState(1)
 	const [rate, setRate] = useState([]);
 	const [dataSource, setData] = useState([]);
-	const [judge, setJudge] = useState(false);
 	const getdispatchRate = async () => {
 		//const res = await dispatchRate();
 		const d = [
@@ -226,17 +224,6 @@ const RatePieChart = (props) => {
 	};
 	return (
 		<div>
-			<div style={{textAlign:'right'}}>
-				<Button type={btnFlag===1?'primary':''}
-					style={{width:90,marginRight:3,borderTopLeftRadius:5,borderBottomLeftRadius:5,borderTopRightRadius:0,borderBottomRightRadius:0}}
-					onClick={()=>{setBtnFlag(1)}}
-					>执行成功</Button>
-				<Button type={btnFlag===2?'primary':''}
-					style={{width:90,borderTopRightRadius:5,borderBottomRightRadius:5,borderTopLeftRadius:0,borderBottomLeftRadius:0}}
-					onClick={()=>{setBtnFlag(2)}}
-					>漏执行</Button>
-			</div>
-			{ judge === false ?
 			<Row>
 				<Col span={16}>
 				<Chart data={dv} height={240} autoFit
@@ -275,6 +262,7 @@ const RatePieChart = (props) => {
 							'type',
 						]}
 					/>
+					<!-- 因为要自定义设置图例，所以图形自带的图例要隐藏，设为false -->
 					<Legend visible={false}/>
 					<Interaction type="element-single-selected" />
 				</Chart>
@@ -283,7 +271,6 @@ const RatePieChart = (props) => {
 				  	{dataSource.length !== 0 ? setLegend() : ''}
 				</Col>
 				</Row>
-				 : <Empty imageStyle={{ height: 107 }} image={Empty.PRESENTED_IMAGE_SIMPLE} />
 			}
 		</div>
 	);
