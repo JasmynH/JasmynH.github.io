@@ -7,7 +7,7 @@ tags:
 categories: 
     - [js]
     - [JQ]
-cover: /img/cover-js.png
+cover: /assets/cover-js.png
 ---
 ## JS数组遍历
 ### for循环遍历

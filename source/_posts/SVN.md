@@ -4,7 +4,7 @@ tags: SVN
 date: 2020-11-15 12:15:17
 categories: 
     - [软件,SVN]
-cover: /img/cover-svn.png
+cover: /assets/cover-svn.png
 ---
 网络上查找的方法总结链接：[https://blog.csdn.net/feiyingzaishi/article/details/103152882](https://blog.csdn.net/feiyingzaishi/article/details/103152882)
 

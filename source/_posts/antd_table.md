@@ -4,7 +4,7 @@ date: 2020-11-02 10:59:08
 tags: antd
 categories: 
     - [框架,antd]
-cover: /img/cover-antd.png
+cover: /assets/cover-antd.png
 ---
 蚂蚁框架嵌套子表格
 ![蚂蚁框架嵌套子表格](1.png)

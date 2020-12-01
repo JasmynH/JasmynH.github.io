@@ -4,7 +4,7 @@ tag: react
 date: 2020-11-22 19:22:19
 categories: 
     - [框架,react]
-cover: /img/cover-react.png
+cover: /assets/cover-react.png
 ---
 refs提供了一种方式，允许我们访问DOM节点或在render方法中创建的React元素
 
