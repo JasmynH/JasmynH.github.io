@@ -1,7 +1,7 @@
 ---
 title: 面试题库
-tags: 面试
-categories: 面试
+tags: 基础
+categories: 基础
 date: 2020-11-08 15:29:08
 cover:  /assets/cover-interview.png
 ---

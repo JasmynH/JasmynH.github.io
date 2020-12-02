@@ -3,9 +3,9 @@ title: http协议
 date: 2020-11-13 09:53:56
 tags: 
     - [http]
-    - [面试]
+    - [基础]
 categories: 
-    - [面试]
+    - [基础]
 cover:  /assets/cover-interview.png
 ---
 

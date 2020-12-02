@@ -1,6 +1,8 @@
 ---
 title: SVN右键不显示解决办法
-tags: SVN
+tags: 
+    - [SVN]
+    - [vscode]
 date: 2020-11-15 12:15:17
 categories: 
     - [软件,SVN]
