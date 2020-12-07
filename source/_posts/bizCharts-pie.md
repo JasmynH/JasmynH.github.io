@@ -1,14 +1,17 @@
 ---
-title: bizCharts饼图/环形图
+title: 饼图/环形图
 date: 2020-11-30 18:10:31
 cover: /assets/cover-bizcharts.png
 tags: 
-    - [bizCharts]
+	- [bizCharts]
+	- [antd]
 categories: 
     - [框架,bizCharts]
+    - [框架,antd]
 ---
 
 ![](1.png)
+# bizcharts
 ## 圈内文字
 ### 3.x
 ```
@@ -95,12 +98,42 @@ categories:
 	}}
 />
 ```
-效果图例
 
-
-### 4.x 自定义图例文字样式
-
-在官方问当里看Lengend暂时没有找到合适的属性，于是使用onGetG2Instance属性
+### 4.x 自定义图例文字样式(方法一)
+使用Legend里itemName属性定义
+```
+<Legend visible={true} position='right'
+	// offsetX={10}
+	spacing={40}
+	maxItemWidth={'100%'}
+	itemWidth={600}
+	itemHeight={20}
+	itemName={{
+        formatter: (text, item, value) => {
+           let values=''
+               if(btnFlag===1){
+               for(let i=0;i<dataFial.length;i++){
+                  if(text===dataFial[i].type){
+                      values=dataFial[i].value;
+                  }
+               }
+           }else{
+		       	for(let i=0;i<dataLeak.length;i++){
+		           if(text===dataLeak[i].type){
+		             values=dataLeak[i].value;
+		           }
+		       	}
+    		}
+   			return text+'    '+values;
+    	},
+	}}
+/>
+```
+实现效果
+![](4.png)
+此方法由于formatter只能返回string或者number类型，所以无法使用div等标签包裹，导致图例里的文字右侧数值无法右对齐。
+### 4.x 自定义图例文字样式(方法二)
+在官方问当里看Lengend暂时没有找到合适的属性，于是使用onGetG2Instance属性，获取每条数据的颜色和值，自定义图例
 
 
 4.x案例：
@@ -442,4 +475,69 @@ __注:__
 	</Geom>
 </Chart>
 ```
+# antd pro图表
+除了bizcharts的饼图，还有antd pro里的饼图也可以达到一样的效果
+### 安装antd pro
+npm无法安装其他，所以只能使用使用cnpm或者yarn安装，如未安装cnpm/yarn，就需要先安装其中之一
+```
+yarn add ant-design-pro@latest --save
+```
+安装成功后
+### 页面引用
+```
+import 'ant-design-pro/dist/ant-design-pro.css'; // 统一引入样式
+```
+之后再引入需要的样式组件，需要使用饼图，就按照官方文档给的代码案例复制引入样式
+```
+import { Pie, yuan } from 'ant-design-pro/lib/Charts';
+```
+最后在页面修改官方文档里复制来的代码
+```
+const salesPieData = [
+  {
+    x: '家用电器',
+    y: 4544,
+  },
+  {
+    x: '食用酒水',
+    y: 3321,
+  },
+  {
+    x: '个护健康',
+    y: 3113,
+  },
+  {
+    x: '服饰箱包',
+    y: 2341,
+  },
+  {
+    x: '母婴产品',
+    y: 1231,
+  },
+  {
+    x: '其他',
+    y: 1231,
+  },
+];
 
+ReactDOM.render(
+  <Pie
+    hasLegend
+    title="销售额"
+    subTitle="销售额"
+    total={() => (
+      <span
+        dangerouslySetInnerHTML={{
+          __html: yuan(salesPieData.reduce((pre, now) => now.y + pre, 0)),
+        }}
+      />
+    )}
+    data={salesPieData}
+    valueFormat={val => <span dangerouslySetInnerHTML={{ __html: yuan(val) }} />}
+    height={294}
+  />,
+  mountNode
+);
+```
+效果图
+![](5.png)
