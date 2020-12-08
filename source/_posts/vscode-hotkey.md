@@ -1,7 +1,10 @@
 ---
 title: 快捷键
 date: 2020-12-08 14:52:36
-tags:
+tags: vscode
+cover: /assets/cover-vscode.png
+categories: 
+    - [软件,vscode]
 ---
 # VScode快捷键
 * !、html:5
