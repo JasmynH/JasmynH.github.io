@@ -102,7 +102,7 @@ export default {
   name: "App",
   // setup是vue3的写法，vue2的写法是data:{}，method:{}
   setup() {
-    // 使用react好处是，改变或获取值无需再写value，还可以减少return里的参数
+    // 使用reactive好处是，改变或获取值无需再写value，还可以减少return里的参数
     const data: DataProps = reactive({
       waiters: ["jack", "emma", "jean"],
       selectWaiter: "",
