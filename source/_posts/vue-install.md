@@ -82,3 +82,5 @@ yarn serve（根据之前选择的市npm还是yarn创建的）
 ```
 ![](18.png)
 
+推荐在VScode中安装高亮插件
+![](19.png)
