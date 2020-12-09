@@ -7,7 +7,7 @@ categories:
     - [软件,vscode]
 ---
 # VScode快捷键
-* !、html:5
+* !或html:5
 快速生成html页面基础代码
 * Ctrl+Alt+F
 格式化代码
