@@ -3,6 +3,7 @@ title: vue3小案例1
 date: 2020-12-09 10:29:38
 tags: 
     - [vue3]
+    - [vue]
     - [typescript]
 categories: 
     - [框架,vue,vue3]
