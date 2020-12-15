@@ -4,7 +4,7 @@ date: 2020-12-08 14:52:36
 tags: vscode
 cover: /assets/cover-vscode.png
 categories: 
-    - [软件,vscode]
+    - [软件/平台,vscode]
 ---
 # VScode快捷键
 * !或html:5
