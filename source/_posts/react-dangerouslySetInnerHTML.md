@@ -6,8 +6,7 @@ tags:
     - 基础
     - react
 categories: 
-    - js
-    - 基础
+    - [基础,js]
     - [框架,react]
 cover: /assets/cover-react.png
 ---

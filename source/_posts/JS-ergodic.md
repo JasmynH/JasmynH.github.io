@@ -5,8 +5,8 @@ tags:
     - [js]
     - [JQ]
 categories: 
-    - [js]
-    - [JQ]
+    - [基础,js]
+    - [基础,JQ]
 cover: /assets/cover-js.png
 ---
 ## JS数组遍历

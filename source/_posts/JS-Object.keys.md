@@ -2,7 +2,8 @@
 title: Object.keys方法
 date: 2020-11-19 20:49:01
 tags: js
-categories: js
+categories: 
+- [基础,js]
 cover: /assets/cover-js.png
 ---
 

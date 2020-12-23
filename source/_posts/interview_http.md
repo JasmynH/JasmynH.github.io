@@ -6,7 +6,7 @@ tags:
     - [基础]
 categories: 
     - [基础]
-cover:  /assets/cover-interview.png
+cover:  /assets/cover-http.png
 ---
 
 

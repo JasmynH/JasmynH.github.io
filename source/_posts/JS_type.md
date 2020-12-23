@@ -2,7 +2,8 @@
 title: JS数据类型
 date: 2020-11-11 10:58:39
 tags: js
-categories: js
+categories: 
+- [基础,js]
 cover: /assets/cover-js.png
 ---
 

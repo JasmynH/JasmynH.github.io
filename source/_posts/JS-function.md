@@ -2,7 +2,8 @@
 title: JS函数
 date: 2020-11-11 17:15:12
 tag: js
-categories: js
+categories: 
+ - [基础,js]
 cover: /assets/cover-js.png
 ---
 __JavaScript 函数是被设计为执行特定任务的代码块。__

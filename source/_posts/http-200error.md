@@ -4,6 +4,7 @@ date: 2020-12-15 19:07:12
 tags: http
 categories: 
 - [基础]
+cover: /assets/cover-http.png
 ---
 http的状态码显示200 OK (from disk cache)，
 Status Code: 200 OK (from disk cache)

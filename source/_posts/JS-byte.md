@@ -3,7 +3,7 @@ title: 字节数
 date: 2020-12-04 11:03:29
 tags: js
 categories: 
-    - [js]
+    - [基础,js]
 cover: /assets/cover-js.png
 ---
 ## 简介

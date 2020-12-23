@@ -6,6 +6,7 @@ tags:
 - 基础 
 categories:
 - [基础,css]
+cover: /assets/cover-css.png
 ---
 ## animation属性详细介绍
 https://www.jianshu.com/p/a7ffdd72c199
