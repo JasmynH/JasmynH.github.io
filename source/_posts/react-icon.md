@@ -8,6 +8,7 @@ categories:
     - [框架,react,icon]
 cover: /assets/cover-react.png
 ---
+## 方法一（在线引用）
 【提前登录巴里巴巴矢量图库】
 
 挑选图标，将选中的图标加入购物车
@@ -29,3 +30,20 @@ const IconFont = createFromIconfontCN({ scriptUrl: '//at.alicdn.com/t/font_22378
 ```
 <IconFont type="icon-tiaodu" style={{fontSize: 55 }} />
 ```
+## 方法二(下载引用)
+前几步与方法一相同，添加至项目后
+![](6.png)
+下载完成后最后阿斗啊iconfont.js文件，并复制
+![](7.png)
+将iconfont.js文件复制到项目里（如果之前复制过相同名字的文件，就重命名后再粘贴）
+之后在需要引入图标的页面里引入文件
+```
+const MyIcon = Icon.createFromIconfontCN({
+    scriptUrl: 'js/common/iconfont.js', //iconfont.js文件的路径
+});
+```
+引用图标
+```
+<MyIcon type="icon-huifu"/>
+```
+
